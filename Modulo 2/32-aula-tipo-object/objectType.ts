@@ -11,9 +11,9 @@ export { };
 // ==> Exemplo 01 -> Exemplo básico do uso do Type Object
 
 const pessoa = {
-  nome: 'Glaucia',
-  sobrenome: 'Lemos',
-  idade: 35,
+  nome: 'Raphael',
+  sobrenome: 'Dias',
+  idade: 33,
   funcao: 'Cloud Advocate'
 };
 
@@ -24,7 +24,7 @@ function onboarding01(funcionario: { nome: string }) {
   return 'Seja bem-vinda ' + funcionario.nome;
 }
 
-console.log(onboarding01({ nome: 'Glaucia Lemos' }));
+console.log(onboarding01({ nome: 'Raphael Dias' }));
 
 // ==> Exemplo 03 -> object nomeados
 
@@ -44,7 +44,7 @@ function onboarding02(pessoa: Pessoa) {
   );
 }
 
-console.log(onboarding02({ nome: 'Glaucia Lemos', funcao: 'Cloud Advocate' }));
+console.log(onboarding02({ nome: 'Raphael Dias', funcao: 'Cloud Advocate' }));
 
 // ==> Exemplo 04 -> object como type alias
 
@@ -68,7 +68,7 @@ function onboarding03(pessoa: Pessoa03) {
   );
 }
 
-console.log(onboarding03({ nome: 'Glaucia Lemos', funcao: 'Cloud Advocate', linguagem: 'JavaScript/Typescript' }));
+console.log(onboarding03({ nome: 'Raphael Dias', funcao: 'Cloud Advocate', linguagem: 'JavaScript/Typescript' }));
 
 
 // ==> Exemplo 05 -> usando optional no object
@@ -94,7 +94,7 @@ function onboarding04(pessoa: Pessoa04) {
   );
 }
 
-console.log(onboarding04({ nome: 'Glaucia Lemos', funcao: 'Cloud Advocate', linguagem: 'JavaScript/Typescript' }));
+console.log(onboarding04({ nome: 'Raphael Dias', funcao: 'Cloud Advocate', linguagem: 'JavaScript/Typescript' }));
 
 // ==> Exemplo 06 -> Propriedade 'readonly' (se deseja proibir que os devs não modifiquem um determinado objeto use o '
 //readonly)
@@ -124,10 +124,10 @@ function onboarding05(pessoa: Pessoa05) {
 
 console.log(onboarding05(
   {
-    nome: 'Glaucia Lemos',
+    nome: 'Raphael Dias',
     funcao: 'Cloud Advocate',
     linguagem: 'JavaScript/Typescript',
-    email: 'gllemos@microsoft.com'
+    email: 'raphael.dias@nuvemshop.com.br'
   }
 ));
 
@@ -145,9 +145,9 @@ interface Filha extends Mae, Pai {
 }
 
 const filha: Filha = {
-  nome: 'Glaucia',
-  sobrenome: 'Lemos',
-  idade: 35
+  nome: 'Raphael',
+  sobrenome: 'Dias',
+  idade: 33
 }
 
 console.log(filha);
@@ -178,12 +178,12 @@ type Admin = {
 }
 
 const usuario: Usuario = {
-  nome: 'Glaucia Lemos',
+  nome: 'Raphael Dias',
   email: 'algumacoisa@gmail.com'
 }
 
 const admin: Admin = {
-  nome: 'Glaucia Lemos',
+  nome: 'Raphael Dias',
   email: 'algumacoisa@gmail.com',
   admin: true
 }
