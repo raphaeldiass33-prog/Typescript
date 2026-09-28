@@ -6,6 +6,7 @@
  * author: Glaucia Lemos <Twitter: @glaucia_lemos86>
  * doc referência: https://www.typescriptlang.org/docs/handbook/basic-types.html#never
  */
+Object.defineProperty(exports, "__esModule", { value: true });
 // ==> Exemplo 01: Never - Throw Exception
 function error(message) {
     throw new Error(message);
@@ -30,3 +31,4 @@ const algumaCoisaVoid = null;
 // const algumaCoisaNever: never = null;
 //console.log(algumaCoisaVoid);
 //console.log(algumaCoisaNever);
+//# sourceMappingURL=neverType.js.map

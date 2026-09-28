@@ -6,6 +6,7 @@
  * author: Raphael Dias <Twitter: @oraphadias33>
  * doc referência: https://www.typescriptlang.org/docs/handbook/basic-types.html#void
  */
+Object.defineProperty(exports, "__esModule", { value: true });
 // ==> Exemplo 01 - funções:
 function logError(errorMessage) {
     console.log(errorMessage);
@@ -23,3 +24,4 @@ let variavelExemploVoid;
 variavelExemploVoid = null;
 variavelExemploVoid = undefined;
 console.log(variavelExemploVoid);
+//# sourceMappingURL=voidtype.js.map
