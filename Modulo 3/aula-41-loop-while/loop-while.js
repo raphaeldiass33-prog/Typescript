@@ -24,7 +24,7 @@ while (numero <= 20) {
 }
 // ==> Exemplo 03 - exemplo mais prático
 let contadorUsuario = 0;
-const usuario = ['Glaucia', 'Jurema', 'Prince'];
+const usuario = ['Raphael', 'Raphaele', 'Davi'];
 while (usuario[contadorUsuario]) {
     console.log('Usuários...: ', usuario[contadorUsuario]);
     contadorUsuario++;
