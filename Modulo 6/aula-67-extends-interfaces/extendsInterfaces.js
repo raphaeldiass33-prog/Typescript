@@ -2,8 +2,8 @@
 /**
  * arquivo: extendsInterfaces.ts
  * descrição: arquivo responsável por ensinar uso de 'extends' e 'implements' em TypeScript
- * data: 12/12/2022
- * author: Glaucia Lemos <Twitter: @glaucia_lemos86>
+ * data: 05/10/2026
+ * author: Raphael Dias <Twitter: @oraphadias33>
  */
 const cachorro = {
     nome: 'Akira',
@@ -17,7 +17,34 @@ const animal = {
     idade: 5
 };
 console.log(animal);
+const desenvolvedor = {
+    id: 'ts-123',
+    nome: 'Raphael Dias',
+    salario: '10k',
+    linguageProgramacao: 'typescript',
+};
+console.log(desenvolvedor);
 module.exports = {};
-// ==> Exemplo 03 - Uso do Omit
 // Exemplo 04 - Uso do pipe
+// Exemplo 04 - Uso do pipe
+/*interface Funcionario {
+  id: number | string;
+  nome: string;
+  salario: number | string;
+}
+
+interface Desenvolvedor extends Funcionario {
+  id: string;
+  salario: string;
+  linguageProgramacao: string;
+}
+
+const desenvolvedor: Desenvolvedor = {
+  id: 'ts-123',
+  nome: 'Raphael Dias',
+  salario: '10k',
+  linguageProgramacao: 'typescript',
+}
+
+console.log(desenvolvedor)*/
 //# sourceMappingURL=extendsInterfaces.js.map
