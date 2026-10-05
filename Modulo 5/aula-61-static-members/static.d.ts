@@ -1,7 +1,8 @@
 /**
- * arquivo: inheritance.ts
- * descrição: arquivo responsável por ensinar como heranças no TypeScript
- * data: 05/08/2022
+ * arquivo: static.ts
+ * descrição: arquivo responsável por ensinar uso de métodos e propriedades
+ * estáticos no TypeScript
+ * data: 03/10/2026
  * author: Raphael Dias <Twitter: @oraphaeldias>
  */
 export {};
