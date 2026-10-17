@@ -1,1 +1,1 @@
-{"version":3,"file":"typeCasting.js","sourceRoot":"","sources":["typeCasting.ts"],"names":[],"mappings":";AAAA;;;;;GAKG;;AAIH,sCAAsC;AACtC,sCAAsC"}
+{"version":3,"file":"typeCasting.js","sourceRoot":"","sources":["typeCasting.ts"],"names":[],"mappings":";AAAA;;;;;GAKG;;AAIH,sCAAsC;AAEtC,MAAM,IAAI,GAAY,cAAc,CAAC;AACrC,OAAO,CAAC,GAAG,CAAE,IAAe,CAAC,WAAW,EAAE,CAAC,CAAC;AAE5C,sCAAsC;AAEtC,MAAM,KAAK,GAAG,SAAS,CAAC;AAExB,MAAM,aAAa,GAAoB,KAAM,CAAC,MAAM,CAAC;AAErD,OAAO,CAAC,GAAG,CAAC,4BAA4B,EAAE,aAAa,CAAC,CAAA"}

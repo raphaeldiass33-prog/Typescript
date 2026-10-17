@@ -6,6 +6,17 @@
  * author: Raphael Dias <Twitter: @oraphadias33>
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-// ==> Exemplo 01: Mapped Types
-// ==> Exemplo 02: Outros Tipos Avançados
+// 'nome' | 'endereco' | 'telefone' | 'idade'
+const usuarioMapped = {
+    nome: 'Raphael Dias',
+    endereco: 'Rua 1,121'
+};
+console.log(usuarioMapped);
+const livro = {
+    autor: 'Boris Cherny',
+    numeroPaginas: 3212,
+    preco: 19.99,
+    titulo: 'Programming Typescript: Making Your Javascript Applications Scale'
+};
+// livro.autor = "Glaucia Lemos"
 //# sourceMappingURL=mappedTypes.js.map

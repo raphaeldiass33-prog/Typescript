@@ -6,6 +6,19 @@
  * author: Raphael Dias <Twitter: @oraphadias33>
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-// ==> Exemplo 01: Satisfies Operator
-// ==> Exemplo 02: Satisfies Operator
+const pessoa = {
+    localNascimento: "Rio de Janeiro",
+    residencialAtual: { x: 10, y: 20 },
+};
+console.log(pessoa.localNascimento.toUpperCase());
+const config = {
+    host: "localhost",
+    port: 3306,
+    tryReconnect: () => true,
+    poolSize: 10,
+};
+function connect() {
+    let { host, port, tryReconnect } = config;
+    createConnection(host, `${port}`, tryReconnect(), 10);
+}
 //# sourceMappingURL=satisfiesOperator.js.map

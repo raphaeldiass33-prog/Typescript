@@ -5,7 +5,17 @@
  * data: 05/10/2026
  * author: Raphael Dias <Twitter: @oraphadias33>
  */
+const enderecoPessoa = {
+    enderecoSecundario: 'Rua 2',
+    cidade: 'São Paulo',
+    pais: 'Brasil',
+};
+const enderecoempresa = {
+    localizacao: 'rua',
+};
+console.log(enderecoPessoa);
+console.log(enderecoempresa);
+const arquivoAudio = 'mp4';
+console.log(arquivoAudio);
 module.exports = {};
-// ==> Exemplo 01 - Conditional Types
-// ==> Exemplo 02 - Conditional Types ()
 //# sourceMappingURL=conditionalTypes.js.map
