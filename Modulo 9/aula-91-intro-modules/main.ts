@@ -1,0 +1,13 @@
+/**
+ * arquivo: main.ts
+ * descrição: arquivo responsável por ensinar conceitos básicos sobre 'Modules'
+ * data: 17/10/2026
+ * author: Raphael Dias <Twitter: @oraphadiass>
+ */
+
+import { somar, subtrair, multiplicar, dividir } from './math';
+
+console.log(somar(10, 20));
+console.log(subtrair(10, 20));
+console.log(multiplicar(10, 20));
+console.log(dividir(10, 20));
